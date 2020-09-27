@@ -9,5 +9,5 @@ function  superbowlWin(record){
     {year: "2017", result: "W"},
     {year: "2016", result: "N/A"}
   ]
-  record.find( r => r === "W" )
+  let result = record.find( record => record.result === "W" )
 }
